@@ -17,13 +17,14 @@ height:20%;
 width:100%;
 font-size: 14px;
 padding:10px;
-margin:25px 20px;
+margin:35px 30px;
 z-index: 100;
 background:none;
 }
 
 .header > ul > li {
   padding-right: 100px;
+  word-spacing: 5px;
 }
 
  .header > ul > li > a {
@@ -34,6 +35,8 @@ background:none;
 
 a {
   text-decoration: none;
+  font-weight: bold;
+  
 }
 
 a:hover {
@@ -48,7 +51,8 @@ a:hover {
   left: 0;
   font-size: 32px;
   float:left;
-  padding-left: 50px;
+  padding-left: 40px;
+  margin:
 
 }
 
@@ -61,6 +65,8 @@ a:hover {
   z-index:-1;
   background-size: cover;
 }
+
+
 
 .div1 {
   height:700px;
