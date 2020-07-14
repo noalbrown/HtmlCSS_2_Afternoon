@@ -216,6 +216,13 @@ a:hover {
   background-size: cover;
 }
 
+.div4{
+  display: flex;
+  flex: column;
+  text-align: center;
+  align-items: flex-start;
+}
+
 .image5 {
   background:transparent url('https://cdn.discordapp.com/attachments/727541480243331142/732359453847978074/home_moon.jpg') no-repeat center center;
   z-index:-1;
@@ -228,4 +235,10 @@ a:hover {
   height: 20vh;
   width:100%;
 }
+
+.footer ul {
+  border: border-box;
+  margin: 40px;
+}
+
 
