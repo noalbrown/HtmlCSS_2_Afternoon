@@ -50,7 +50,7 @@ a:hover {
   top:0;
   left: 0;
   font-size: 32px;
-  float:left;
+  float: left;
   padding-left: 40px;
 }
 
@@ -144,35 +144,88 @@ a:hover {
   margin-bottom: 100px;
 }
 
-.div1 > h1 {
+.div1, .div2 > h1 {
   border:border-box;
   font-size: 2.5rem;
   padding-bottom: 50px;
 }
 
-.div1 > button {
+.div1, .div2 > button {
+  border-style: solid;
+  border-color: white;
+  background: transparent;
+  color:white;
+  font-weight: bold;
   margin:20px;
+  padding: 15px 45px;
 }
 
-/* HELP ME!!!!!!!!!! */
+.image1 > ul {
+  margin:1.5rem 2em 1em;
+  text-align: center;
+  list-style: none;
+}
+
+.image1 > ul > li {
+  display: inline-block;
+  margin: 40px;
+}
+
+.arrow {
+  display: inline-block;
+  width: 15px;
+  height:15px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transform: rotate(135deg);
+}
+
+/* From here down are problems */
 
 .image2 {
   background:transparent url('https://cdn.discordapp.com/attachments/727541480243331142/732359443928580146/gps3_launch_desktop_02.jpg') no-repeat center center;
   z-index:-1;
   background-size: cover;
 }
-/* .image3 {
+
+.div2 > h1 {
+  border:border-box;
+  font-size: 2.5rem;
+  padding-bottom: 50px;
+}
+
+.div2 > h1, button {
+  position: absolute;
+  bottom: 100px;
+  left:50px;
+}
+
+
+
+
+
+.image3 {
   background:transparent url('https://cdn.discordapp.com/attachments/727541480243331142/732359453621485609/home_demo2.jpg') no-repeat center center;
   z-index:-1;
   background-size: cover;
 }
+
 .image4 {
   background:transparent url('#') no-repeat center center;
   z-index:-1;
   background-size: cover;
 }
+
 .image5 {
   background:transparent url('https://cdn.discordapp.com/attachments/727541480243331142/732359453847978074/home_moon.jpg') no-repeat center center;
   z-index:-1;
   background-size: cover;
-} */
+}
+
+.footer {
+  display: inline-block;
+  text-align: center;
+  height: 20vh;
+  width:100%;
+}
+
